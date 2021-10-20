@@ -4,35 +4,21 @@
   <meta charset="utf-8">
   <title>JavaScript Basics</title>
   <style>
-    .my-color{
-    color: red;
-    background-color: skyblue;}
-
-    .my-border {
-      border-bottom: 4px solid orange;
+    li {
+      cursor: pointer;
+    }
+    .done {
+      text-decoration: line-through;
     }
   </style>
 </head>
 <body>
-
-  <button>Run</button>
-  <!-- <h1 id = "target" data-translation="Dotinstall">ドットインストール</h1>
-  <p>こんにちは</p>
-  <p>こんにちは</p>
-  <p>こんにちは</p> -->
-
-  <ul>
-    <li>item0</li>
-    <li>item1</li>
-    <li>item2</li>
+  <ul> <!-- e.currentTarget --> <!--取得の仕方！-->
+    <li>Todo</li>
+    <li>Todo</li> <!-- e.target --> <!-- 取得の仕方！ -->
+    <li>Todo</li>
   </ul>
 
-  <script>
-    'use strict';
-    console.log('Hello World!');
-  </script>
-
-  <script src="./Dom09.js"></script>
-  
+  <script src="./Dom18.js"></script>
 </body>
 </html>
